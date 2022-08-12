@@ -384,7 +384,10 @@ generally  */
 input[type="email"] {
   border: 0;
   border-radius: 100vmax;
-  padding: 0.75rem 15rem;
+  /* padding: 0.75rem 15rem; */
+  padding-left: 1rem;
+  height: 3.5rem;
+  width: 35rem;
 }
 
 /* footer section  */
@@ -501,8 +504,9 @@ input[type="email"] {
     margin-left: 0.5rem;
   }
   input[type="email"] {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    width: 100%;
   }
   .social-links {
     align-items: center;
@@ -517,8 +521,9 @@ input[type="email"] {
     gap: 3rem;
   }
   input[type="email"] {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    width: 100%;
   }
   .social-links {
     align-items: center;
