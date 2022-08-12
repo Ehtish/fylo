@@ -504,6 +504,7 @@ input[type="email"] {
     margin-top: -2rem;
     margin-left: 0.5rem;
   }
+  .btn,
   input[type="email"] {
     /* padding-left: 2rem;
     padding-right: 2rem; */
@@ -521,6 +522,7 @@ input[type="email"] {
   .even-columns {
     gap: 3rem;
   }
+  .btn,
   input[type="email"] {
     /* padding-left: 2rem;
     padding-right: 2rem; */
