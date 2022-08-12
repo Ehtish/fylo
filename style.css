@@ -355,7 +355,7 @@ generally  */
   margin-bottom: -12rem;
 }
 .cta {
-   /* width: 62%; */
+  /* width: 62%; */
   max-width: 85%;
   background-color: var(--clr-cta);
   padding: 5rem 3rem 3rem;
@@ -504,6 +504,7 @@ input[type="email"] {
     margin-top: -2rem;
     margin-left: 0.5rem;
   }
+
   .btn,
   input[type="email"] {
     /* padding-left: 2rem;
