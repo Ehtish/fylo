@@ -180,6 +180,7 @@ h3 {
   font-size: 1.8rem;
 }
 .btn {
+  cursor: pointer;
   background-color: var(--clr-blue);
   /* actual background of the btn  */
   /* background-image: linear-gradient(to right, var(--clr-cyan), var(--clr-blue)); */
@@ -463,8 +464,8 @@ input[type="email"] {
 
 /* for mobile screen  */
 @media (max-width: 580px) {
-  body {
-    font-size: var(--fs-100);
+  html {
+    font-size: 55%;
   }
   .nav-list {
     gap: clamp(1rem, 2vw, 1rem);
@@ -480,6 +481,7 @@ input[type="email"] {
     line-height: 1.25;
   }
   .sp-item a {
+    font-size: var(--fs-100);
     width: 12rem;
   }
   .cta h2 {
@@ -505,7 +507,7 @@ input[type="email"] {
     margin-left: 0.5rem;
   }
 
-  .btn,
+  .cta .btn,
   input[type="email"] {
     /* padding-left: 2rem;
     padding-right: 2rem; */
@@ -523,7 +525,7 @@ input[type="email"] {
   .even-columns {
     gap: 3rem;
   }
-  .btn,
+  .cta .btn,
   input[type="email"] {
     /* padding-left: 2rem;
     padding-right: 2rem; */
